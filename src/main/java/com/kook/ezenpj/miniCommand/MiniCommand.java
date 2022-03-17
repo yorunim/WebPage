@@ -1,0 +1,12 @@
+package com.kook.ezenpj.miniCommand;
+
+import javax.servlet.http.HttpServletRequest;
+
+import org.springframework.ui.Model;
+
+public interface MiniCommand {
+	
+	//추상메서드 선언
+	void execute(Model model, HttpServletRequest request);
+
+}
